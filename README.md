@@ -28,8 +28,9 @@ Set the LaserScan topic to /scan.
 ## Build a map by using Lidar
 ### Scan the environment
 Use Hector-SLAM Package.  
-Boot the lidar: $ roslaunch rplidar_ros rplidar.launch  
+Boot the lidar:  $ roslaunch rplidar_ros rplidar.launch  
 Launch the nodes and rviz: $ roslaunch hector_slam_launch tutorial.launch  
 Then we can move the lidar slowly, and observe the map.  
 ### Save the map
-$ rosrun map_server map_saver -f my_map
+$ rosrun map_server map_saver -f my_map  
+
