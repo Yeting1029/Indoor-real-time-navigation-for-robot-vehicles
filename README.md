@@ -9,4 +9,4 @@ $ sudo apt install ros-melodic-desktop-full
 ## Environment setup
 $ echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
 
-$source ~/.bashrc
+$ source ~/.bashrc
