@@ -17,6 +17,7 @@ $ catkin_make
 $ ls -l /dev | grep ttyUSB  
 $ sudo chmod 666 /dev/ttyUSB0  
 ## Test the lidar
+### Show the data of lidar in the terminal
 $ roslaunch rplidar_ros rplidar.launch  
 $ rostopic list  
 $ rostopic echo /scan
