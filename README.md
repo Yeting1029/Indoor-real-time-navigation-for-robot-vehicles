@@ -16,3 +16,7 @@ $ catkin_make
 ## Detect the lidar connect normally
 $ ls -l /dev | grep ttyUSB  
 $ sudo chmod 666 /dev/ttyUSB0  
+## Test the lidar
+$ roslaunch rplidar_ros rplidar.launch  
+$ rostopic list  
+$ rostopic echo /scan
