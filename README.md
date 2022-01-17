@@ -21,3 +21,7 @@ $ sudo chmod 666 /dev/ttyUSB0
 $ roslaunch rplidar_ros rplidar.launch  
 $ rostopic list  
 $ rostopic echo /scan
+### Show the data of lidar in rviz
+$ rviz  
+$ Change the Fixed Frame to laser, and add LaserScan  
+$ Set the LaserScan topic to /scan
