@@ -1,7 +1,9 @@
 # Indoor-real-time-navigation-for-robot-vehicles
-Final year project for the Embedded Systems Minor
-
+Final year project for the Embedded Systems Minor  
 GSE5 - SUN Yeting - YU Bicong
+## Prerequisite, compile and run
+Ubuntu 18.04  
+ROS
 ## ROS setup and installation
 ```
 $ sudo apt-get update
