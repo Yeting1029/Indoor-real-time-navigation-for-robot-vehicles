@@ -5,7 +5,9 @@ GSE5 - SUN Yeting - YU Bicong
 Ubuntu 18.04  
 ROS Melodic
 ## Demonstration video
-OpenCR set up and control robot by keyboard: https://youtu.be/CJ8-lHX4I2Q
+OpenCR set up and control robot by keyboard: https://youtu.be/CJ8-lHX4I2Q  
+Simulate Navigation: https://youtu.be/jXwqB6Ex7NE  
+Real-time Navigation: https://youtu.be/v8mUfoLE1SI  
 ## ROS setup and installation
 ```
 $ sudo apt-get update
