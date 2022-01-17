@@ -25,13 +25,13 @@ $ ls -l /dev | grep ttyUSB
 $ sudo chmod 666 /dev/ttyUSB0  
 ```
 ## Test the lidar
-### Show the data of lidar in the terminal
+Show the data of lidar in the terminal
 ```
 $ roslaunch rplidar_ros rplidar.launch  
 $ rostopic list  
 $ rostopic echo /scan
 ```
-### Show the data of lidar in rviz
+Show the data of lidar in rviz
 ```
 $ rviz  
 ```
@@ -56,19 +56,19 @@ $ roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
 $ roslaunch turtlebot3_navigation turtlebot_navigation.launch map_file:=$HOME/map.yaml  
 ```
 ## Use Turtlebot3 to navigation
-### Connect to Turtlebot3
+Connect to Turtlebot3
 ```
 $ ssh pi@172.20.10.3  
 ```
-### In Remote PC
+In Remote PC
 ```
 $ roscore
 ```
-### In Turtlebot
+In Turtlebot
 ```
 $ roslaunch turtlebot3_bringup turtlebot3_robot.launch  
 ```
-### In Remote PC
+In Remote PC
 #### Control Turtlebot by the keyboard
 ```
 $ export TURTLEBOT3_MODEL=burger
