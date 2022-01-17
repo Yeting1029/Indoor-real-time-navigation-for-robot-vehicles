@@ -6,7 +6,7 @@ Ubuntu 18.04
 ROS Melodic
 ## Demonstration video
 YouTube  
-(https://youtu.be/CJ8-lHX4I2Q)
+https://youtu.be/CJ8-lHX4I2Q
 ## ROS setup and installation
 ```
 $ sudo apt-get update
