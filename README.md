@@ -46,22 +46,36 @@ $ roslaunch hector_slam_launch tutorial.launch
 ```
 Then we can move the lidar slowly, and observe the map.  
 ### Save the map
-`$ rosrun map_server map_saver -f my_map  `
+```
+$ rosrun map_server map_saver -f my_map  
+```
 ## Autonomous navigation with ROS
+```
 $ export TURLEBOT3_MODEL = burger  
 $ roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch  
 $ roslaunch turtlebot3_navigation turtlebot_navigation.launch map_file:=$HOME/map.yaml  
+```
 ## Use Turtlebot3 to navigation
 ### Connect to Turtlebot3
+```
 $ ssh pi@172.20.10.3  
+```
 ### In Remote PC
+```
 $ roscore
+```
 ### In Turtlebot
+```
 $ roslaunch turtlebot3_bringup turtlebot3_robot.launch  
+```
 ### In Remote PC
 #### Control Turtlebot by the keyboard
+```
 $ export TURTLEBOT3_MODEL=burger
 $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+```
 #### Navigation in rviz
+```
 $ export TURTLEBOT3_MODEL=burger
 $ roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/ map.yaml
+```
