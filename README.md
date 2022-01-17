@@ -7,7 +7,7 @@ GSE5 - SUN Yeting - YU Bicong
 $ sudo apt-get update
 ```
 ```
-$ sudo apt install ros-melodic-desktop-full  
+$ sudo apt install ros-melodic-desktop-full
 ```
 ## Environment setup
 $ echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc  
