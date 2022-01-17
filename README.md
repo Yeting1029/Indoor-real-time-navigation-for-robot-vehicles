@@ -4,6 +4,9 @@ GSE5 - SUN Yeting - YU Bicong
 ## Prerequisite, compile and run
 Ubuntu 18.04  
 ROS Melodic
+## Demonstration video
+YouTube  
+(https://youtu.be/CJ8-lHX4I2Q)
 ## ROS setup and installation
 ```
 $ sudo apt-get update
