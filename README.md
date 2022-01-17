@@ -68,7 +68,7 @@ In Turtlebot:
 ```
 $ roslaunch turtlebot3_bringup turtlebot3_robot.launch  
 ```
-In Remote PC:
+In Remote PC:  
 Control Turtlebot by the keyboard
 ```
 $ export TURTLEBOT3_MODEL=burger
