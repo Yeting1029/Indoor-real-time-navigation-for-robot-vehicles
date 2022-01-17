@@ -23,5 +23,5 @@ $ rostopic list
 $ rostopic echo /scan
 ### Show the data of lidar in rviz
 $ rviz  
-$ Change the Fixed Frame to laser, and add LaserScan  
-$ Set the LaserScan topic to /scan
+Change the Fixed Frame to laser, and add LaserScan  
+Set the LaserScan topic to /scan
