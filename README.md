@@ -6,7 +6,7 @@ Ubuntu 18.04
 ROS Melodic
 ## Demonstration video
 OpenCR set up and control robot by keyboard: https://youtu.be/CJ8-lHX4I2Q  
-Simulate Navigation: https://youtu.be/jXwqB6Ex7NE  
+Simulate Navigation: https://youtu.be/C8kooJ65Fe0  
 Real-time Navigation: https://youtu.be/v8mUfoLE1SI  
 ## ROS setup and installation
 ```
