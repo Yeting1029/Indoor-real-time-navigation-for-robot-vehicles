@@ -83,8 +83,8 @@ export ROS_HOSTNAME=172.20.10.6
 ```
 Modify the ~./bashrc in Turtlebot, write the following to the end of the file:
 ```
-export ROS_MASTER_URI=http://172.20.10.3:11311
-export ROS_HOSTNAME=172.20.10.6
+export ROS_MASTER_URI=http://172.20.10.6:11311
+export ROS_HOSTNAME=172.20.10.3
 ```
 ## Use Turtlebot3 to navigation
 Connect to Turtlebot3:
