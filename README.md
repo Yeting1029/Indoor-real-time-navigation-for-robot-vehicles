@@ -55,11 +55,36 @@ Then we can move the lidar slowly, and observe the map.
 ```
 $ rosrun map_server map_saver -f my_map  
 ```
-## Autonomous navigation with ROS
+## Simulate navigation with ROS
 ```
 $ export TURLEBOT3_MODEL = burger  
 $ roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch  
-$ roslaunch turtlebot3_navigation turtlebot_navigation.launch map_file:=$HOME/map.yaml  
+$ roslaunch turtlebot3_navigation turtlebot_navigation.launch map_file:=$HOME/my_map.yaml  
+```
+## SBC setup
+Download Turtlebot3 SBC image: http://www.robotis.com/service/download.php?no=1738  
+Use Disks utility to burn the image file to the SD card:
+```
+Select the microSD card in the left panel.  
+Select Restore Disk Image option.  
+Open the .img file from local disk.  
+Click Start Restoring... > Restore button.  
+```
+## Configure communication with Turtlebot3
+We use hotspots to establish communication.  
+Find IP address(Our IP address is 172.20.10.6 and 172.20.10.3):
+```
+ifconfig
+```
+Modify the ~./bashrc in Remote PC, write the following to the end of the file:
+```
+export ROS_MASTER_URI=http://172.20.10.6:11311
+export ROS_HOSTNAME=172.20.10.6
+```
+Modify the ~./bashrc in Turtlebot, write the following to the end of the file:
+```
+export ROS_MASTER_URI=http://172.20.10.3:11311
+export ROS_HOSTNAME=172.20.10.6
 ```
 ## Use Turtlebot3 to navigation
 Connect to Turtlebot3:
@@ -83,5 +108,5 @@ $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 Navigation in rviz
 ```
 $ export TURTLEBOT3_MODEL=burger
-$ roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/ map.yaml
+$ roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/my_map.yaml
 ```
